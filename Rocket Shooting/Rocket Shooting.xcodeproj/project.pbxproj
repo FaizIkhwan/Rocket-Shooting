@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED215A122381705C008715D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED215A102381705C008715D2 /* Assets.xcassets */; };
+		ED215A14238171C2008715D2 /* FirefliesParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED215A13238171C2008715D2 /* FirefliesParticle.sks */; };
+		ED54CC33237D052400F8E08A /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54CC32237D052400F8E08A /* EndScene.swift */; };
 		EDCC82E1237BED3000E517A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCC82E0237BED3000E517A1 /* AppDelegate.swift */; };
 		EDCC82E3237BED3000E517A1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDCC82E2237BED3000E517A1 /* GameScene.sks */; };
 		EDCC82E5237BED3000E517A1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDCC82E4237BED3000E517A1 /* Actions.sks */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED215A102381705C008715D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED215A13238171C2008715D2 /* FirefliesParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirefliesParticle.sks; sourceTree = "<group>"; };
+		ED54CC32237D052400F8E08A /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 		EDCC82DD237BED3000E517A1 /* Rocket Shooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Shooting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCC82E0237BED3000E517A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCC82E2237BED3000E517A1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				EDCC82E8237BED3000E517A1 /* GameViewController.swift */,
 				EDCC82EA237BED3000E517A1 /* Main.storyboard */,
 				EDCC82EF237BED3400E517A1 /* LaunchScreen.storyboard */,
+				ED54CC32237D052400F8E08A /* EndScene.swift */,
+				ED215A102381705C008715D2 /* Assets.xcassets */,
+				ED215A13238171C2008715D2 /* FirefliesParticle.sks */,
 			);
 			path = "Rocket Shooting";
 			sourceTree = "<group>";
@@ -148,9 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCC82EC237BED3000E517A1 /* Main.storyboard in Resources */,
+				ED215A14238171C2008715D2 /* FirefliesParticle.sks in Resources */,
 				EDCC82E3237BED3000E517A1 /* GameScene.sks in Resources */,
 				EDCC82EE237BED3400E517A1 /* Assets.xcassets in Resources */,
 				EDCC82F1237BED3400E517A1 /* LaunchScreen.storyboard in Resources */,
+				ED215A122381705C008715D2 /* Assets.xcassets in Resources */,
 				EDCC82E5237BED3000E517A1 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +175,7 @@
 			files = (
 				EDCC82E7237BED3000E517A1 /* GameScene.swift in Sources */,
 				EDCC82E9237BED3000E517A1 /* GameViewController.swift in Sources */,
+				ED54CC33237D052400F8E08A /* EndScene.swift in Sources */,
 				EDCC82E1237BED3000E517A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8C5YY57VR;
-				INFOPLIST_FILE = "Rocket Shooting/Info.plist";
+				INFOPLIST_FILE = "Rocket Shooting/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8C5YY57VR;
-				INFOPLIST_FILE = "Rocket Shooting/Info.plist";
+				INFOPLIST_FILE = "Rocket Shooting/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
